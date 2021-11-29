@@ -4,7 +4,7 @@ Create table tb_student(
 	secondName nvarchar(100)  not null,
 	firstSurName nvarchar(100)  not null,
 	secondSurName nvarchar(100)  not null,
-	documenton nvarchar(100) not null
+	documento nvarchar(100) not null
 )
 
 
@@ -31,7 +31,7 @@ Create table tb_bulletin(
 Create table tb_matter(
 	id int identity not null primary key,
 	id_bulletin int not null,
-	name float not null,
+	name nvarchar(100) not null,
 	description nvarchar(500)  not null,
 	foreign key (id_bulletin) references tb_bulletin
 )
