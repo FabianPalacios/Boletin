@@ -1,0 +1,58 @@
+﻿@model Boletin.GUI.Models.Parametros.ModeloStudentGUI
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>ModeloStudentGUI</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SecondName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SecondName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstSurName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstSurName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SecondSurName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SecondSurName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Documento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Documento)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

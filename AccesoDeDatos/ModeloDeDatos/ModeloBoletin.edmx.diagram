@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cf0cb69e75aa48a38d555b2d5c199528" Name="Diagram1">
+        <EntityTypeShape EntityType="BoletinBDModel.tb_bulletin" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BoletinBDModel.tb_grade" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BoletinBDModel.tb_period" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BoletinBDModel.tb_student" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <AssociationConnector Association="BoletinBDModel.FK__tb_bullet__id_gr__173876EA" ManuallyRouted="false" />
+        <AssociationConnector Association="BoletinBDModel.FK__tb_bullet__id_pe__182C9B23" ManuallyRouted="false" />
+        <AssociationConnector Association="BoletinBDModel.FK__tb_bullet__id_st__164452B1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BoletinBDModel.tb_matter" Width="1.5" PointX="5.25" PointY="1.25" />
+        <AssociationConnector Association="BoletinBDModel.FK__tb_matter__id_bu__1B0907CE" />
+        <EntityTypeShape EntityType="BoletinBDModel.tb_result" Width="1.5" PointX="7.5" PointY="1.5" />
+        <AssociationConnector Association="BoletinBDModel.FK__tb_result__id_ma__2B3F6F97" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
